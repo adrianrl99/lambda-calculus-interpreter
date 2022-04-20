@@ -1,0 +1,21 @@
+{
+  "name": "js-language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon -e js,l src/interpreter.js test/test.l"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "jsdoc-to-markdown": "^7.1.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}
